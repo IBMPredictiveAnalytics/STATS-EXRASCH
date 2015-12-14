@@ -1,0 +1,525 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EXRASCH.R:111
+msgid "Binary Rasch"
+msgstr ""
+"2 値 Rasch"
+
+#: STATS_EXRASCH.R:112
+msgid "Linear Logistic Test"
+msgstr ""
+"線型ロジスティック検定"
+
+#: STATS_EXRASCH.R:113
+msgid "Polytomous Rating Scale"
+msgstr ""
+"多値評価尺度"
+
+#: STATS_EXRASCH.R:114
+msgid "Linear Rating Scale"
+msgstr ""
+"線型評価尺度"
+
+#: STATS_EXRASCH.R:115
+msgid "Polytomous Partial Credit"
+msgstr ""
+"多値部分的採点"
+
+#: STATS_EXRASCH.R:116
+msgid "Polytomous Linear Partial Credit"
+msgstr ""
+"多値線型部分的採点"
+
+#: STATS_EXRASCH.R:118
+msgid "relative gradient is close to zero, current iterate is probably solution."
+msgstr ""
+"相対勾配はゼロに近くなっています。おそらく現在の反復が解です。"
+
+#: STATS_EXRASCH.R:119
+msgid "successive iterates within tolerance, current iterate is probably solution."
+msgstr ""
+"許容範囲内の連続する反復。おそらく現在の反復が解です。"
+
+#: STATS_EXRASCH.R:120
+msgid "last global step failed to locate a point lower than estimate. Either estimate is an approximate local minimum of the function or steptol is too small."
+msgstr ""
+"最後のグローバル ステップで推定値より低いポイントを見つけるのに失敗しました。推定値が、関数の近似的なローカル最小値であるか、steptol が小さすぎます。"
+
+#: STATS_EXRASCH.R:121
+msgid "iteration limit exceeded."
+msgstr ""
+"反復限度を超えました。"
+
+#: STATS_EXRASCH.R:122
+msgid "maximum step size stepmax exceeded five consecutive times. Either the function is unbounded below, becomes asymptotic to a finite value from above in some direction or stepmax is too small."
+msgstr ""
+"5 回連続して最大ステップ サイズ stepmax を超過しました。関数の下限が無制限になっているか、ある方向で有限値に上から漸近的に近づいているか、stepmax が小さ過ぎます。"
+
+#: STATS_EXRASCH.R:136
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_EXRASCH.R:144
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"指定された出力データセット名のうち 1 つ以上が既に使用されています"
+
+#: STATS_EXRASCH.R:165
+msgid "The specified model type is inconsistent with group and repetition specifications"
+msgstr ""
+"指定されたモデル タイプは、グループおよび繰り返しの指定と矛盾しています。"
+
+#: STATS_EXRASCH.R:170
+msgid "There are %s duplicates in the item list"
+msgstr ""
+"項目リストに %s 個の重複があります"
+
+#: STATS_EXRASCH.R:173
+msgid "Thresholds require that standard errors be computed.  Changing standard error setting"
+msgstr ""
+"しきい値では標準誤差の計算が必要です。標準誤差の設定を変更しています"
+
+#: STATS_EXRASCH.R:180
+msgid "Person parameters cannot be estimated with groups"
+msgstr ""
+"個人のパラメータをグループによって推定することはできません"
+
+#: STATS_EXRASCH.R:192
+msgid "The item values must start at zero"
+msgstr ""
+"項目の値はゼロから開始する必要があります"
+
+#: STATS_EXRASCH.R:195
+msgid "The items must have more than two values"
+msgstr ""
+"それらの項目には 3 つ以上の値が必要です"
+
+#: STATS_EXRASCH.R:198
+msgid "The items must be coded 0/1 for this model"
+msgstr ""
+"それらの項目はこのモデルでは 0/1 でコーディングする必要があります"
+
+#: STATS_EXRASCH.R:206
+#: STATS_EXRASCH.R:394
+msgid "Model"
+msgstr ""
+"モデル"
+
+#: STATS_EXRASCH.R:207
+msgid "Group Variable"
+msgstr ""
+"グループ化変数"
+
+#: STATS_EXRASCH.R:208
+msgid "Repetitions"
+msgstr ""
+"反復"
+
+#: STATS_EXRASCH.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"対数尤度"
+
+#: STATS_EXRASCH.R:210
+#: STATS_EXRASCH.R:461
+msgid "Number of Parameters"
+msgstr ""
+"パラメータ数"
+
+#: STATS_EXRASCH.R:211
+msgid "Parameter Normalization"
+msgstr ""
+"パラメータの正規化"
+
+#: STATS_EXRASCH.R:212
+#: STATS_EXRASCH.R:397
+msgid "Number of Iterations"
+msgstr ""
+"反復回数"
+
+#: STATS_EXRASCH.R:213
+msgid "Convergence"
+msgstr ""
+"収束基準"
+
+#: STATS_EXRASCH.R:214
+msgid "Person Parameters Dataset"
+msgstr ""
+"個人パラメータ データセット"
+
+#: STATS_EXRASCH.R:217
+#: STATS_EXRASCH.R:224
+msgid "--None--"
+msgstr ""
+"--なし--"
+
+#: STATS_EXRASCH.R:221
+msgid "Sum to zero"
+msgstr ""
+"合計をゼロに設定"
+
+#: STATS_EXRASCH.R:221
+msgid "First set to zero"
+msgstr ""
+"最初はゼロに設定"
+
+#: STATS_EXRASCH.R:228
+msgid "Values"
+msgstr ""
+"値"
+
+#: STATS_EXRASCH.R:229
+msgid "Rasch Model Summary"
+msgstr ""
+"Rasch モデルの要約"
+
+#: STATS_EXRASCH.R:230
+msgid "Results computed by R eRm package"
+msgstr ""
+"R eRm パッケージによって計算された結果"
+
+#: STATS_EXRASCH.R:234
+msgid "Converge not achieved"
+msgstr ""
+"収束は達成されていません"
+
+#: STATS_EXRASCH.R:238
+msgid "Threshold parameters are not available for dichotomous items"
+msgstr ""
+"二分の項目ではしきい値パラメータを使用できません"
+
+#: STATS_EXRASCH.R:252
+#: STATS_EXRASCH.R:264
+msgid "The item information plot is not available for this model"
+msgstr ""
+"このモデルでは項目情報プロットを使用できません"
+
+#: STATS_EXRASCH.R:258
+msgid "The item information test plot is not available for this model"
+msgstr ""
+"このモデルでは項目情報テスト プロットを使用できません"
+
+#: STATS_EXRASCH.R:271
+#: STATS_EXRASCH.R:290
+msgid "Latent Dimension"
+msgstr ""
+"潜在次元"
+
+#: STATS_EXRASCH.R:271
+msgid "Probability to Solve"
+msgstr ""
+"解決する確率"
+
+#: STATS_EXRASCH.R:275
+msgid "Design Matrix"
+msgstr ""
+"計画行列"
+
+#: STATS_EXRASCH.R:282
+msgid "Wald Test for Item Elimination"
+msgstr ""
+"項目除去のための Wald 検定"
+
+#: STATS_EXRASCH.R:286
+msgid "The Wald test is not available for this model."
+msgstr ""
+"このモデルでは Wald 検定を使用できません。"
+
+#: STATS_EXRASCH.R:290
+msgid "Person-Item Map"
+msgstr ""
+"個人-項目マップ"
+
+#: STATS_EXRASCH.R:291
+msgid "Person\nParameter\nDistribution"
+msgstr ""
+"個人\nパラメータ\n分布"
+
+#: STATS_EXRASCH.R:293
+msgid "The item-person plot is not available for this model"
+msgstr ""
+"このモデルでは項目-個人プロットを使用できません"
+
+#: STATS_EXRASCH.R:309
+msgid "Item (Category) Difficulty Parameters (Beta)"
+msgstr ""
+"項目 (カテゴリ) 問題パラメータ (ベータ)"
+
+#: STATS_EXRASCH.R:311
+#: STATS_EXRASCH.R:326
+msgid "CI: %s"
+msgstr ""
+"CI: %s"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:316
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:331
+msgid "Estimate"
+msgstr ""
+"推定値"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:372
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Lower CI"
+msgstr ""
+"下限 CI"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Upper CI"
+msgstr ""
+"上限 CI"
+
+#: STATS_EXRASCH.R:324
+msgid "Item (Eta) Parameters"
+msgstr ""
+"項目 (イータ) パラメータ"
+
+#: STATS_EXRASCH.R:344
+msgid "Thresholds could not be computed"
+msgstr ""
+"しきい値は計算できませんでした"
+
+#: STATS_EXRASCH.R:359
+msgid "Location"
+msgstr ""
+"位置"
+
+#: STATS_EXRASCH.R:359
+msgid "Threshold"
+msgstr ""
+"しきい値"
+
+#: STATS_EXRASCH.R:361
+msgid "Item Thresholds"
+msgstr ""
+"項目しきい値"
+
+#: STATS_EXRASCH.R:363
+msgid "Item Thresholds. %s"
+msgstr ""
+"項目しきい値。%s"
+
+#: STATS_EXRASCH.R:364
+msgid "Design Matrix Block"
+msgstr ""
+"計画行列ブロック"
+
+#: STATS_EXRASCH.R:372
+msgid "Lower %s%% C.I."
+msgstr ""
+"下限 %s%% C.I."
+
+#: STATS_EXRASCH.R:372
+msgid "Upper %s%% C.I."
+msgstr ""
+"上限 %s%% C.I."
+
+#: STATS_EXRASCH.R:374
+msgid "Threshold Std. Errors and Confidence Intervals"
+msgstr ""
+"しきい値標準誤差および信頼区間"
+
+#: STATS_EXRASCH.R:385
+msgid "Some tables are unavailable"
+msgstr ""
+"一部のテーブルが使用不可です"
+
+#: STATS_EXRASCH.R:395
+msgid "Unconditional (Joint) Log Likelihood"
+msgstr ""
+"無条件 (結合) 対数尤度"
+
+#: STATS_EXRASCH.R:396
+msgid "D.F"
+msgstr ""
+"自由度"
+
+#: STATS_EXRASCH.R:407
+msgid "Pearson R2"
+msgstr ""
+"Pearson の R2 乗"
+
+#: STATS_EXRASCH.R:408
+msgid "Sum-of-Squares R2"
+msgstr ""
+"平方和 R2"
+
+#: STATS_EXRASCH.R:409
+msgid "McFadden R2"
+msgstr ""
+"McFadden の R2 乗"
+
+#: STATS_EXRASCH.R:410
+msgid "Accuracy"
+msgstr ""
+"精度"
+
+#: STATS_EXRASCH.R:411
+msgid "Sensitivity"
+msgstr ""
+"感度"
+
+#: STATS_EXRASCH.R:412
+msgid "Specificity"
+msgstr ""
+"特異性"
+
+#: STATS_EXRASCH.R:425
+msgid "Statistics"
+msgstr ""
+"統計量"
+
+#: STATS_EXRASCH.R:426
+msgid "Person Ability Parameters"
+msgstr ""
+"個人能力パラメータ"
+
+#: STATS_EXRASCH.R:435
+msgid "Chi Squared"
+msgstr ""
+"カイの 2 乗"
+
+#: STATS_EXRASCH.R:435
+msgid "D.F."
+msgstr ""
+"自由度"
+
+#: STATS_EXRASCH.R:435
+msgid "P Value"
+msgstr ""
+"P 値"
+
+#: STATS_EXRASCH.R:435
+msgid "Outfit MSQ"
+msgstr ""
+"アウトフィット平均 2 乗誤差"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit MSQ"
+msgstr ""
+"インフィット平均 2 乗誤差"
+
+#: STATS_EXRASCH.R:436
+msgid "Outfit t"
+msgstr ""
+"アウトフィット t"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit t"
+msgstr ""
+"インフィット t"
+
+#: STATS_EXRASCH.R:437
+msgid "Item Fit Statistics"
+msgstr ""
+"項目適合度統計"
+
+#: STATS_EXRASCH.R:445
+msgid "Confusion Matrix"
+msgstr ""
+"混同行列"
+
+#: STATS_EXRASCH.R:447
+msgid "Predicted"
+msgstr ""
+"予測"
+
+#: STATS_EXRASCH.R:447
+msgid "Observed"
+msgstr ""
+"観測"
+
+#: STATS_EXRASCH.R:453
+msgid "Person Goodness-of-Fit Tests"
+msgstr ""
+"個人の適合度検定"
+
+#: STATS_EXRASCH.R:459
+msgid "Joint Log Likelihood"
+msgstr ""
+"結合対数尤度"
+
+#: STATS_EXRASCH.R:459
+msgid "Marginal Log Likelihood"
+msgstr ""
+"周辺対数尤度"
+
+#: STATS_EXRASCH.R:460
+msgid "Conditional Log Likelihood"
+msgstr ""
+"条件付き対数尤度"
+
+#: STATS_EXRASCH.R:461
+msgid "Value"
+msgstr ""
+"値"
+
+#: STATS_EXRASCH.R:462
+msgid "Person Fit Information Criteria"
+msgstr ""
+"個人適合情報基準"
+
+#: STATS_EXRASCH.R:473
+msgid "Case ID"
+msgstr ""
+"ケース ID"
+
+#: STATS_EXRASCH.R:474
+msgid "Parameter"
+msgstr ""
+"パラメータ"
+
+#: STATS_EXRASCH.R:475
+msgid "Missing Data Group"
+msgstr ""
+"欠損データ グループ"
+
+#: STATS_EXRASCH.R:476
+msgid "Interpolated"
+msgstr ""
+"補間済み"
+
+#: STATS_EXRASCH.R:477
+msgid "Standard Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_EXRASCH.R:484
+msgid "Standard Error, NA Group"
+msgstr ""
+"標準誤差、NA グループ"
+
+#: STATS_EXRASCH.R:505
+msgid "Failed to create person parameters dataset."
+msgstr ""
+"個人パラメータ データセットの作成に失敗しました。"
+
+

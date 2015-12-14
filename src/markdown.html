@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS EXRASCH Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS EXRASCH Extension Command</h1>
+
+<p>Estimate various Rasch models.</p>
+<div class="syntax">
+<p>STATS EXRASCH MODEL= RM<sup>&#42;</sup> OR LLTM OR RSM or LRSM or PCM or LPCM<br/>
+ITEMS = <em>itemvariables</em><sup>&#42;</sup></br>
+GROUP = <em>group variable</em></br>
+REPS = <em>number of mesurements</em></p>
+
+<p>/OPTIONS SE=YES or NO<sup>&#42;&#42;</sup></br>
+SUM0 = YES<sup>&#42;&#42;</sup> or NO</p>
+
+<p>/SAVE PERSONDATA = <em>datasetname</em></p>
+
+<p>/OUTPUT PERSONPLOT = YES or NO<sup>&#42;&#42;</sup></br> ITEMINFOPLOT = YES or NO<sup>&#42;&#42;</sup></br>
+ICCPLOT = YES or NO<sup>&#42;&#42;</sup></br>
+ICCPLOTLEGENDPOS = LEFT<sup>&#42;&#42;</sup> or BOTTOM or
+  BOTTOMLEFT or TOPLEFT or TOP or TOPRIGHT or RIGHT or CENTER</br>
+PERSONITEMPLOT = YES or NO<sup>&#42;&#42;</sup></br>
+DESIGNMATRIX = YES or NO<sup>&#42;&#42;</sup></br>
+WALDTEST = MEDIAN<sup>&#42;&#42;</sup> or MEAN </br>
+THRESH = YES or NO<sup>&#42;&#42;</sup></br>
+ETA = YES or NO<sup>&#42;&#42;</sup></p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS EXRASCH /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS EXRASCH MODEL=RM ITEMVARIABLES=i1 i2 i3.
+</code></pre>
+
+<p><strong>MODEL</strong> specifies the type of model to be estimated.  The choices are</p>
+
+<ul>
+<li>RM: Binary Rasch, 0/1 item values</li>
+<li>LLTM: Linear Logistic Test, 0/1 item values</li>
+<li>RSM: Polytomous Rating Scale, more than two values</li>
+<li>LRSM: Linear Rating Scale, more than two values</li>
+<li>PCM: Polytomous Partial Credit, more than two values</li>
+<li>LPCM: Polytomous Linear Partial Credit, more than two values</li>
+</ul>
+
+<p><strong>ITEMS</strong> lists the item variables.  For RM and LLTM, the values must be 0 or 1.
+For the other models, values must be integers starting with 0.
+With multiple measures, the repeated measures appear as additional
+variables in the same case (wide format), e.g., I1a I2a I3a I1b I2b I3b.</p>
+
+<p><strong>GROUP</strong> indicates the group membership of each case.  Values must be integers
+starting from 1.  AUTORECODE is a convenient way to convert a group indicator
+to this form.  GROUP can only be used with models LLTM, LRSM, and LPCM.</p>
+
+<p><strong>REPS</strong> specifies the number of repeated measures, defaulting to 1, i.e.,
+no repeats.  If GROUP is used, REPS must be greater than 1
+for the parameters to be identified.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>SE</strong> specifies whether standard errors should be computed.</p>
+
+<p><strong>SUM0</strong> specifies the parameter normalization.  If YES, the
+parameters are  normalized to sum to zero.  If NO, the first
+parameter is set to zero.</p>
+
+<h2>SAVE</h2>
+
+<p><strong>PERSONDATA</strong> specifies a dataset to be created holding person statistics.
+The specified name must not already be in use.  If PERSONDATA is
+specified a number of person-related statistics are shown in the Viewer.
+PERSONDATA cannot be used if there is a GROUPS specification.</p>
+
+<p>Missing data are accepted by the procedure, but certain statistics
+for person data are not available in this case, and the structure
+of the persondata dataset is a little different.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>PERSONPLOT</strong>, <strong>ITEMINFOPLOT</strong>, <strong>ICCPLOT</strong>, and *<em>PERSONITEMPLOT</em>
+specify whether or not these plots should be produced.</p>
+
+<p><strong>ICCPLOTLEGEND</strong> determines whether
+a legend is displayed and, if so, where it appears in
+the plot frame.  The legend may obscure the plot lines,
+so moving it or producing separate plots for each item
+may be necessary to get a satisfactory plot.</p>
+
+<p><strong>DESIGNMATRIX</strong> specifies whether the design matrix for the model
+is displayed.  This can be helpful in ensuring that the data
+structure is appropriate for the model specifications.</p>
+
+<p><strong>WALDTEST</strong> specifies whether a table of tests for item elimination
+is displayed.</p>
+
+<p><strong>THRESH</strong> specifies whether or not to display a table of item threshold.
+This applies only when there are more than two values for items.</p>
+
+<p><strong>ETA</strong> specifies whether to display a table of the estimated etas
+from which the beta parameters are computed.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+

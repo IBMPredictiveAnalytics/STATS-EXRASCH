@@ -1,0 +1,525 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EXRASCH.R:111
+msgid "Binary Rasch"
+msgstr ""
+"二元 Rasch"
+
+#: STATS_EXRASCH.R:112
+msgid "Linear Logistic Test"
+msgstr ""
+"线性 Logistic 检验"
+
+#: STATS_EXRASCH.R:113
+msgid "Polytomous Rating Scale"
+msgstr ""
+"多分评分标度"
+
+#: STATS_EXRASCH.R:114
+msgid "Linear Rating Scale"
+msgstr ""
+"线性评分标度"
+
+#: STATS_EXRASCH.R:115
+msgid "Polytomous Partial Credit"
+msgstr ""
+"多分部分计分"
+
+#: STATS_EXRASCH.R:116
+msgid "Polytomous Linear Partial Credit"
+msgstr ""
+"多分线性部分计分"
+
+#: STATS_EXRASCH.R:118
+msgid "relative gradient is close to zero, current iterate is probably solution."
+msgstr ""
+"相对梯度接近于零，当前迭代是可能的解决方案。"
+
+#: STATS_EXRASCH.R:119
+msgid "successive iterates within tolerance, current iterate is probably solution."
+msgstr ""
+"连续的迭代在容差范围内，当前迭代是可能的解决方案。"
+
+#: STATS_EXRASCH.R:120
+msgid "last global step failed to locate a point lower than estimate. Either estimate is an approximate local minimum of the function or steptol is too small."
+msgstr ""
+"最后一个全局步骤未能找到小于估算值的点。估算值是此函数的近似局部最小值，或者 steptol 太小。"
+
+#: STATS_EXRASCH.R:121
+msgid "iteration limit exceeded."
+msgstr ""
+"超出迭代限制。"
+
+#: STATS_EXRASCH.R:122
+msgid "maximum step size stepmax exceeded five consecutive times. Either the function is unbounded below, becomes asymptotic to a finite value from above in some direction or stepmax is too small."
+msgstr ""
+"连续五次超过最大步长大小 stepmax。此函数在下方不受限、在上方从某个方向变得接近一个有限值，或者 stepmax 太小。"
+
+#: STATS_EXRASCH.R:136
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: STATS_EXRASCH.R:144
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"一个或多个指定的输出数据集名称已在使用中"
+
+#: STATS_EXRASCH.R:165
+msgid "The specified model type is inconsistent with group and repetition specifications"
+msgstr ""
+"指定的模型类型与组和重复规范不一致"
+
+#: STATS_EXRASCH.R:170
+msgid "There are %s duplicates in the item list"
+msgstr ""
+"项列表中有 %s 个重复项"
+
+#: STATS_EXRASCH.R:173
+msgid "Thresholds require that standard errors be computed.  Changing standard error setting"
+msgstr ""
+"阈值要求计算标准误差。正在更改标准误差设置"
+
+#: STATS_EXRASCH.R:180
+msgid "Person parameters cannot be estimated with groups"
+msgstr ""
+"存在组时，无法估算人员参数"
+
+#: STATS_EXRASCH.R:192
+msgid "The item values must start at zero"
+msgstr ""
+"项值必须从零开始"
+
+#: STATS_EXRASCH.R:195
+msgid "The items must have more than two values"
+msgstr ""
+"项必须具有两个以上的值"
+
+#: STATS_EXRASCH.R:198
+msgid "The items must be coded 0/1 for this model"
+msgstr ""
+"对于此模型，项必须编码为 0/1"
+
+#: STATS_EXRASCH.R:206
+#: STATS_EXRASCH.R:394
+msgid "Model"
+msgstr ""
+"模型"
+
+#: STATS_EXRASCH.R:207
+msgid "Group Variable"
+msgstr ""
+"组变量"
+
+#: STATS_EXRASCH.R:208
+msgid "Repetitions"
+msgstr ""
+"重复项"
+
+#: STATS_EXRASCH.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"对数拟然"
+
+#: STATS_EXRASCH.R:210
+#: STATS_EXRASCH.R:461
+msgid "Number of Parameters"
+msgstr ""
+"参数数目"
+
+#: STATS_EXRASCH.R:211
+msgid "Parameter Normalization"
+msgstr ""
+"参数规范化"
+
+#: STATS_EXRASCH.R:212
+#: STATS_EXRASCH.R:397
+msgid "Number of Iterations"
+msgstr ""
+"迭代次数"
+
+#: STATS_EXRASCH.R:213
+msgid "Convergence"
+msgstr ""
+"收敛"
+
+#: STATS_EXRASCH.R:214
+msgid "Person Parameters Dataset"
+msgstr ""
+"人员参数数据集"
+
+#: STATS_EXRASCH.R:217
+#: STATS_EXRASCH.R:224
+msgid "--None--"
+msgstr ""
+"--无--"
+
+#: STATS_EXRASCH.R:221
+msgid "Sum to zero"
+msgstr ""
+"总和为零"
+
+#: STATS_EXRASCH.R:221
+msgid "First set to zero"
+msgstr ""
+"第一个设置为零"
+
+#: STATS_EXRASCH.R:228
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_EXRASCH.R:229
+msgid "Rasch Model Summary"
+msgstr ""
+"Rasch 模型摘要"
+
+#: STATS_EXRASCH.R:230
+msgid "Results computed by R eRm package"
+msgstr ""
+"由 R eRm 程序包计算的结果"
+
+#: STATS_EXRASCH.R:234
+msgid "Converge not achieved"
+msgstr ""
+"未实现收敛"
+
+#: STATS_EXRASCH.R:238
+msgid "Threshold parameters are not available for dichotomous items"
+msgstr ""
+"阈值参数不可用于二分项"
+
+#: STATS_EXRASCH.R:252
+#: STATS_EXRASCH.R:264
+msgid "The item information plot is not available for this model"
+msgstr ""
+"对于此模型，不会显示项信息图"
+
+#: STATS_EXRASCH.R:258
+msgid "The item information test plot is not available for this model"
+msgstr ""
+"对于此模型，不会显示项信息检验图"
+
+#: STATS_EXRASCH.R:271
+#: STATS_EXRASCH.R:290
+msgid "Latent Dimension"
+msgstr ""
+"潜在的维度"
+
+#: STATS_EXRASCH.R:271
+msgid "Probability to Solve"
+msgstr ""
+"解决概率"
+
+#: STATS_EXRASCH.R:275
+msgid "Design Matrix"
+msgstr ""
+"设计矩阵"
+
+#: STATS_EXRASCH.R:282
+msgid "Wald Test for Item Elimination"
+msgstr ""
+"用于除去项的瓦尔德检验"
+
+#: STATS_EXRASCH.R:286
+msgid "The Wald test is not available for this model."
+msgstr ""
+"瓦尔德检验不可用于此模型。"
+
+#: STATS_EXRASCH.R:290
+msgid "Person-Item Map"
+msgstr ""
+"“人员-项”映射"
+
+#: STATS_EXRASCH.R:291
+msgid "Person\nParameter\nDistribution"
+msgstr ""
+"人员\n参数\n分布"
+
+#: STATS_EXRASCH.R:293
+msgid "The item-person plot is not available for this model"
+msgstr ""
+"对于此模型，不会显示“项-人员”图"
+
+#: STATS_EXRASCH.R:309
+msgid "Item (Category) Difficulty Parameters (Beta)"
+msgstr ""
+"项（类别）难度参数 (Beta)"
+
+#: STATS_EXRASCH.R:311
+#: STATS_EXRASCH.R:326
+msgid "CI: %s"
+msgstr ""
+"CI：%s"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:316
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:331
+msgid "Estimate"
+msgstr ""
+"估算"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:372
+msgid "Std. Error"
+msgstr ""
+"标准误差"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Lower CI"
+msgstr ""
+"CI 下限"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Upper CI"
+msgstr ""
+"CI 上限"
+
+#: STATS_EXRASCH.R:324
+msgid "Item (Eta) Parameters"
+msgstr ""
+"项 (Eta) 参数"
+
+#: STATS_EXRASCH.R:344
+msgid "Thresholds could not be computed"
+msgstr ""
+"未能计算阈值"
+
+#: STATS_EXRASCH.R:359
+msgid "Location"
+msgstr ""
+"位置"
+
+#: STATS_EXRASCH.R:359
+msgid "Threshold"
+msgstr ""
+"阈值"
+
+#: STATS_EXRASCH.R:361
+msgid "Item Thresholds"
+msgstr ""
+"项阈值"
+
+#: STATS_EXRASCH.R:363
+msgid "Item Thresholds. %s"
+msgstr ""
+"项阈值。%s"
+
+#: STATS_EXRASCH.R:364
+msgid "Design Matrix Block"
+msgstr ""
+"设计矩阵块"
+
+#: STATS_EXRASCH.R:372
+msgid "Lower %s%% C.I."
+msgstr ""
+"%s%% C.I 下限。"
+
+#: STATS_EXRASCH.R:372
+msgid "Upper %s%% C.I."
+msgstr ""
+"%s%% C.I 上限。"
+
+#: STATS_EXRASCH.R:374
+msgid "Threshold Std. Errors and Confidence Intervals"
+msgstr ""
+"阈值标准误差和置信区间"
+
+#: STATS_EXRASCH.R:385
+msgid "Some tables are unavailable"
+msgstr ""
+"一些表不可用"
+
+#: STATS_EXRASCH.R:395
+msgid "Unconditional (Joint) Log Likelihood"
+msgstr ""
+"无条件（联合）对数似然"
+
+#: STATS_EXRASCH.R:396
+msgid "D.F"
+msgstr ""
+"自由度"
+
+#: STATS_EXRASCH.R:407
+msgid "Pearson R2"
+msgstr ""
+"人员 R2"
+
+#: STATS_EXRASCH.R:408
+msgid "Sum-of-Squares R2"
+msgstr ""
+"平方和 R2"
+
+#: STATS_EXRASCH.R:409
+msgid "McFadden R2"
+msgstr ""
+"McFadden R2"
+
+#: STATS_EXRASCH.R:410
+msgid "Accuracy"
+msgstr ""
+"准确性"
+
+#: STATS_EXRASCH.R:411
+msgid "Sensitivity"
+msgstr ""
+"敏感度"
+
+#: STATS_EXRASCH.R:412
+msgid "Specificity"
+msgstr ""
+"特异性"
+
+#: STATS_EXRASCH.R:425
+msgid "Statistics"
+msgstr ""
+"统计"
+
+#: STATS_EXRASCH.R:426
+msgid "Person Ability Parameters"
+msgstr ""
+"人员能力参数"
+
+#: STATS_EXRASCH.R:435
+msgid "Chi Squared"
+msgstr ""
+"卡方检验"
+
+#: STATS_EXRASCH.R:435
+msgid "D.F."
+msgstr ""
+"自由度。"
+
+#: STATS_EXRASCH.R:435
+msgid "P Value"
+msgstr ""
+"P 值"
+
+#: STATS_EXRASCH.R:435
+msgid "Outfit MSQ"
+msgstr ""
+"Outfit MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit MSQ"
+msgstr ""
+"Infit MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Outfit t"
+msgstr ""
+"Outfit t"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit t"
+msgstr ""
+"Infit t"
+
+#: STATS_EXRASCH.R:437
+msgid "Item Fit Statistics"
+msgstr ""
+"项拟合统计"
+
+#: STATS_EXRASCH.R:445
+msgid "Confusion Matrix"
+msgstr ""
+"混淆矩阵"
+
+#: STATS_EXRASCH.R:447
+msgid "Predicted"
+msgstr ""
+"预测"
+
+#: STATS_EXRASCH.R:447
+msgid "Observed"
+msgstr ""
+"实测"
+
+#: STATS_EXRASCH.R:453
+msgid "Person Goodness-of-Fit Tests"
+msgstr ""
+"人员拟合优度检验"
+
+#: STATS_EXRASCH.R:459
+msgid "Joint Log Likelihood"
+msgstr ""
+"联合对数似然"
+
+#: STATS_EXRASCH.R:459
+msgid "Marginal Log Likelihood"
+msgstr ""
+"边际对数似然"
+
+#: STATS_EXRASCH.R:460
+msgid "Conditional Log Likelihood"
+msgstr ""
+"条件对数似然"
+
+#: STATS_EXRASCH.R:461
+msgid "Value"
+msgstr ""
+"值"
+
+#: STATS_EXRASCH.R:462
+msgid "Person Fit Information Criteria"
+msgstr ""
+"人员拟合信息条件"
+
+#: STATS_EXRASCH.R:473
+msgid "Case ID"
+msgstr ""
+"个案 ID"
+
+#: STATS_EXRASCH.R:474
+msgid "Parameter"
+msgstr ""
+"参数"
+
+#: STATS_EXRASCH.R:475
+msgid "Missing Data Group"
+msgstr ""
+"缺少数据组"
+
+#: STATS_EXRASCH.R:476
+msgid "Interpolated"
+msgstr ""
+"内插"
+
+#: STATS_EXRASCH.R:477
+msgid "Standard Error"
+msgstr ""
+"标准误差"
+
+#: STATS_EXRASCH.R:484
+msgid "Standard Error, NA Group"
+msgstr ""
+"标准误差，NA 组"
+
+#: STATS_EXRASCH.R:505
+msgid "Failed to create person parameters dataset."
+msgstr ""
+"未能创建人员参数数据集。"
+
+

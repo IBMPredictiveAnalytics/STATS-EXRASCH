@@ -1,0 +1,91 @@
+STATS EXRASCH Extension Command
+===============================
+
+Estimate various Rasch models.
+
+
+STATS EXRASCH MODEL= RM^&#42; OR LLTM OR RSM or LRSM or PCM or LPCM  
+ITEMS = *itemvariables*^&#42;
+GROUP = *group variable*
+REPS = *number of mesurements*
+
+/OPTIONS SE=YES or NO^&#42;&#42; SUM0 = YES^&#42;&#42; or NO
+
+/SAVE PERSONDATA = *datasetname*
+
+/OUTPUT PERSONPLOT = YES or NO^&#42;&#42; ITEMINFOPLOT = YES or NO^&#42;&#42; 
+ICCPLOT = YES or NO^&#42;&#42;
+PERSONITEMPLOT= YES or NO^&#42;&#42;
+DESIGNMATRIX = YES or NO^&#42;&#42; WALDTEST = MEDIAN^&#42;&#42; or MEAN 
+THRESH=YES or NO^&#42;&#42;
+ETA = YES or NO^&#42;&#42;
+
+STATS EXRASCH /HELP.  prints this information and does nothing else.
+
+^&#42; Required  
+^&#42;&#42; Default
+
+Example:
+```
+STATS EXRASCH MODEL=RM ITEMVARIABLES=i1 i2 i3.
+```
+
+**MODEL** specifies the type of model to be estimated.  The choices are
+* RM: Binary Rasch, 0/1 item values
+* LLTM: Linear Logistic Test, 0/1 item values
+* RSM: Polytomous Rating Scale, more than two values
+* LRSM: Linear Rating Scale, more than two values
+* PCM: Polytomous Partial Credit, more than two values
+* LPCM: Polytomous Linear Partial Credit, more than two values
+
+**ITEMS** lists the item variables.  For RM and LLTM, the values must be 0 or 1.
+For the other models, values must be integers starting with 0.
+With multiple measures, the repeated measures appear as additional
+variables in the same case (wide format), e.g., I1a I2a I3a I1b I2b I3b.
+
+**GROUP** indicates the group membership of each case.  Values must be integers
+starting from 1.  AUTORECODE is a convenient way to convert a group indicator
+to this form.  GROUP can only be used with models LLTM, LRSM, and LPCM.
+
+**REPS** specifies the number of repeated measures, defaulting to 1, i.e.,
+no repeats.  If GROUP is used, REPS must be greater than 1
+for the parameters to be identified.
+
+OPTIONS
+-------
+**SE** specifies whether standard errors should be computed.
+
+**SUM0** specifies the parameter normalization.  If YES, the
+parameters are  normalized to sum to zero.  If NO, the first
+parameter is set to zero.
+
+SAVE
+----
+**PERSONDATA** specifies a dataset to be created holding person statistics.
+The specified name must not already be in use.  If PERSONDATA is
+specified a number of person-related statistics are shown in the Viewer.
+PERSONDATA cannot be used if there is a GROUPS specification.
+
+Missing data are accepted by the procedure, but certain statistics
+for person data are not available in this case, and the structure
+of the persondata dataset is a little different.
+
+OUTPUT
+------
+**PERSONPLOT**, **ITEMINFOPLOT**, **ICCPLOT**, and **PERSONITEMPLOT*
+specify whether or not these plots should be produced.
+
+**DESIGNMATRIX** specifies whether the design matrix for the model
+is displayed.  This can be helpful in ensuring that the data
+structure is appropriate for the model specifications.
+
+**WALDTEST** specifies whether a table of tests for item elimination
+is displayed.
+
+**THRESH** specifies whether or not to display a table of item threshold.
+This applies only when there are more than two values for items.
+
+**ETA** specifies whether to display a table of the estimated etas
+from which the beta parameters are computed.
+
+(C) Copyright IBM Corp. 1989, 2014

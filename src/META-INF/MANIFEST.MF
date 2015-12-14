@@ -1,0 +1,20 @@
+Name: STATS EXRASCH
+Dialog-Specs: STATS_EXRASCH.spd
+Command-Specs: STATS_EXRASCH.xml
+Code-Files: STATS_EXRASCH.R
+Misc-Files: extsyntax.css,markdown.html,IBMdialogicon.png
+Summary: Calculate standard and extended Rasch models
+Description: This procedure calculates standard Rasch models and five 
+ extensions: RM: Binary Rasch, 0/1 item values, LLTM: Linear Logistic 
+ Test, 0/1 item values, RSM: Polytomous Rating Scale, more than two va
+ lues, LRSM: Linear Rating Scale, more than two values, PCM: Polytomou
+ s Partial Credit, more than two values, and LPCM: Polytomous Linear P
+ artial Credit, more than two values
+Author: JKP, IBM SPSS
+Version: 1.1.0
+Product-Version: 18
+Date: 4/2013
+Categories: SPSS, Rasch, R, statistics
+Plugins: R
+R-Packages: eRm
+Translation-Catalogues: lang

@@ -1,0 +1,525 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EXRASCH.R:111
+msgid "Binary Rasch"
+msgstr ""
+"이분형 Rasch"
+
+#: STATS_EXRASCH.R:112
+msgid "Linear Logistic Test"
+msgstr ""
+"선형 로지스틱 검정"
+
+#: STATS_EXRASCH.R:113
+msgid "Polytomous Rating Scale"
+msgstr ""
+"다중 등급 척도"
+
+#: STATS_EXRASCH.R:114
+msgid "Linear Rating Scale"
+msgstr ""
+"선형 등급 척도"
+
+#: STATS_EXRASCH.R:115
+msgid "Polytomous Partial Credit"
+msgstr ""
+"다중 부분 점수"
+
+#: STATS_EXRASCH.R:116
+msgid "Polytomous Linear Partial Credit"
+msgstr ""
+"다중 선형 부분 점수"
+
+#: STATS_EXRASCH.R:118
+msgid "relative gradient is close to zero, current iterate is probably solution."
+msgstr ""
+"상대 기울기가 0에 근접하므로 현재 반복이 해법이 될 수 있습니다."
+
+#: STATS_EXRASCH.R:119
+msgid "successive iterates within tolerance, current iterate is probably solution."
+msgstr ""
+"허용 한도 내에서 연속적으로 반복되므로 현재 반복이 해법이 될 수 있습니다."
+
+#: STATS_EXRASCH.R:120
+msgid "last global step failed to locate a point lower than estimate. Either estimate is an approximate local minimum of the function or steptol is too small."
+msgstr ""
+"마지막 글로벌 단계가 추정값 미만의 포인트를 찾는 데 실패했습니다. 추정값이 함수의 근사치 로컬 최소값이거나 steptol이 너무 작습니다."
+
+#: STATS_EXRASCH.R:121
+msgid "iteration limit exceeded."
+msgstr ""
+"반복 한계를 초과했습니다."
+
+#: STATS_EXRASCH.R:122
+msgid "maximum step size stepmax exceeded five consecutive times. Either the function is unbounded below, becomes asymptotic to a finite value from above in some direction or stepmax is too small."
+msgstr ""
+"최대 단계 크기 stepmax가 5회의 연속 횟수를 초과했습니다. 함수의 하한이 제한이 없거나, 일부 방향에서는 상한에서 한정된 값으로 접근하거나, stepmax가 너무 작습니다."
+
+#: STATS_EXRASCH.R:136
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_EXRASCH.R:144
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"하나 이상의 지정된 출력 데이터 세트 이름이 이미 사용 중입니다."
+
+#: STATS_EXRASCH.R:165
+msgid "The specified model type is inconsistent with group and repetition specifications"
+msgstr ""
+"지정된 모형 유형이 그룹 및 반복 지정과 일치하지 않습니다."
+
+#: STATS_EXRASCH.R:170
+msgid "There are %s duplicates in the item list"
+msgstr ""
+"항목 목록에 %s개의 중복 항목이 있습니다."
+
+#: STATS_EXRASCH.R:173
+msgid "Thresholds require that standard errors be computed.  Changing standard error setting"
+msgstr ""
+"임계값을 사용하려면 표준오차를 계산해야 합니다. 표준오차 설정을 변경합니다."
+
+#: STATS_EXRASCH.R:180
+msgid "Person parameters cannot be estimated with groups"
+msgstr ""
+"피험자 모수는 집단을 사용하여 추정할 수 없습니다."
+
+#: STATS_EXRASCH.R:192
+msgid "The item values must start at zero"
+msgstr ""
+"항목 값은 0으로 시작해야 합니다."
+
+#: STATS_EXRASCH.R:195
+msgid "The items must have more than two values"
+msgstr ""
+"항목에는 세 개 이상의 값이 있어야 합니다."
+
+#: STATS_EXRASCH.R:198
+msgid "The items must be coded 0/1 for this model"
+msgstr ""
+"이 모형의 경우 항목을 0/1로 코딩해야 합니다."
+
+#: STATS_EXRASCH.R:206
+#: STATS_EXRASCH.R:394
+msgid "Model"
+msgstr ""
+"모형"
+
+#: STATS_EXRASCH.R:207
+msgid "Group Variable"
+msgstr ""
+"집단변수"
+
+#: STATS_EXRASCH.R:208
+msgid "Repetitions"
+msgstr ""
+"반복"
+
+#: STATS_EXRASCH.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"로그 우도"
+
+#: STATS_EXRASCH.R:210
+#: STATS_EXRASCH.R:461
+msgid "Number of Parameters"
+msgstr ""
+"모수의 수"
+
+#: STATS_EXRASCH.R:211
+msgid "Parameter Normalization"
+msgstr ""
+"모수 정규화"
+
+#: STATS_EXRASCH.R:212
+#: STATS_EXRASCH.R:397
+msgid "Number of Iterations"
+msgstr ""
+"반복계산 수"
+
+#: STATS_EXRASCH.R:213
+msgid "Convergence"
+msgstr ""
+"수렴"
+
+#: STATS_EXRASCH.R:214
+msgid "Person Parameters Dataset"
+msgstr ""
+"피험자 모수 데이터 세트"
+
+#: STATS_EXRASCH.R:217
+#: STATS_EXRASCH.R:224
+msgid "--None--"
+msgstr ""
+"--없음--"
+
+#: STATS_EXRASCH.R:221
+msgid "Sum to zero"
+msgstr ""
+"0으로 합산"
+
+#: STATS_EXRASCH.R:221
+msgid "First set to zero"
+msgstr ""
+"0으로 처음 설정"
+
+#: STATS_EXRASCH.R:228
+msgid "Values"
+msgstr ""
+"값"
+
+#: STATS_EXRASCH.R:229
+msgid "Rasch Model Summary"
+msgstr ""
+"Rasch 모형 요약"
+
+#: STATS_EXRASCH.R:230
+msgid "Results computed by R eRm package"
+msgstr ""
+"R eRm 패키지에 의해 계산된 결과"
+
+#: STATS_EXRASCH.R:234
+msgid "Converge not achieved"
+msgstr ""
+"수렴을 완료할 수 없음"
+
+#: STATS_EXRASCH.R:238
+msgid "Threshold parameters are not available for dichotomous items"
+msgstr ""
+"임계값 모수는 이분형 항목에 대해 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:252
+#: STATS_EXRASCH.R:264
+msgid "The item information plot is not available for this model"
+msgstr ""
+"이 모형의 경우 항목 정보 도표를 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:258
+msgid "The item information test plot is not available for this model"
+msgstr ""
+"이 모형의 경우 항목 정보 검정 도표를 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:271
+#: STATS_EXRASCH.R:290
+msgid "Latent Dimension"
+msgstr ""
+"잠재 차원"
+
+#: STATS_EXRASCH.R:271
+msgid "Probability to Solve"
+msgstr ""
+"해결할 확률"
+
+#: STATS_EXRASCH.R:275
+msgid "Design Matrix"
+msgstr ""
+"계획 행렬"
+
+#: STATS_EXRASCH.R:282
+msgid "Wald Test for Item Elimination"
+msgstr ""
+"항목 제거를 위한 Wald 검정"
+
+#: STATS_EXRASCH.R:286
+msgid "The Wald test is not available for this model."
+msgstr ""
+"이 모형의 경우 Wald 검정을 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:290
+msgid "Person-Item Map"
+msgstr ""
+"피험자-항목 맵"
+
+#: STATS_EXRASCH.R:291
+msgid "Person\nParameter\nDistribution"
+msgstr ""
+"피험자\n모수\n분포"
+
+#: STATS_EXRASCH.R:293
+msgid "The item-person plot is not available for this model"
+msgstr ""
+"이 모형의 경우 항목-피험자 도표를 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:309
+msgid "Item (Category) Difficulty Parameters (Beta)"
+msgstr ""
+"함수(범주) 난이도 모수(베타)"
+
+#: STATS_EXRASCH.R:311
+#: STATS_EXRASCH.R:326
+msgid "CI: %s"
+msgstr ""
+"CI: %s"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:316
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:331
+msgid "Estimate"
+msgstr ""
+"추정"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:372
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Lower CI"
+msgstr ""
+"하한 CI"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Upper CI"
+msgstr ""
+"상한 CI"
+
+#: STATS_EXRASCH.R:324
+msgid "Item (Eta) Parameters"
+msgstr ""
+"항목(에타) 모수"
+
+#: STATS_EXRASCH.R:344
+msgid "Thresholds could not be computed"
+msgstr ""
+"임계값을 계산할 수 없습니다."
+
+#: STATS_EXRASCH.R:359
+msgid "Location"
+msgstr ""
+"위치"
+
+#: STATS_EXRASCH.R:359
+msgid "Threshold"
+msgstr ""
+"임계값"
+
+#: STATS_EXRASCH.R:361
+msgid "Item Thresholds"
+msgstr ""
+"항목 임계값"
+
+#: STATS_EXRASCH.R:363
+msgid "Item Thresholds. %s"
+msgstr ""
+"항목 임계값. %s"
+
+#: STATS_EXRASCH.R:364
+msgid "Design Matrix Block"
+msgstr ""
+"계획 행렬 블록"
+
+#: STATS_EXRASCH.R:372
+msgid "Lower %s%% C.I."
+msgstr ""
+"하한 %s%% C.I."
+
+#: STATS_EXRASCH.R:372
+msgid "Upper %s%% C.I."
+msgstr ""
+"상한 %s%% C.I."
+
+#: STATS_EXRASCH.R:374
+msgid "Threshold Std. Errors and Confidence Intervals"
+msgstr ""
+"임계값 표준오차 및 신뢰구간"
+
+#: STATS_EXRASCH.R:385
+msgid "Some tables are unavailable"
+msgstr ""
+"일부 표를 사용할 수 없습니다."
+
+#: STATS_EXRASCH.R:395
+msgid "Unconditional (Joint) Log Likelihood"
+msgstr ""
+"무조건(결합) 로그 우도"
+
+#: STATS_EXRASCH.R:396
+msgid "D.F"
+msgstr ""
+"자유도"
+
+#: STATS_EXRASCH.R:407
+msgid "Pearson R2"
+msgstr ""
+"Pearson R2"
+
+#: STATS_EXRASCH.R:408
+msgid "Sum-of-Squares R2"
+msgstr ""
+"제곱합 R2"
+
+#: STATS_EXRASCH.R:409
+msgid "McFadden R2"
+msgstr ""
+"McFadden R2"
+
+#: STATS_EXRASCH.R:410
+msgid "Accuracy"
+msgstr ""
+"정확도"
+
+#: STATS_EXRASCH.R:411
+msgid "Sensitivity"
+msgstr ""
+"민감도"
+
+#: STATS_EXRASCH.R:412
+msgid "Specificity"
+msgstr ""
+"특이도"
+
+#: STATS_EXRASCH.R:425
+msgid "Statistics"
+msgstr ""
+"통계량2"
+
+#: STATS_EXRASCH.R:426
+msgid "Person Ability Parameters"
+msgstr ""
+"피험자 능력 모수"
+
+#: STATS_EXRASCH.R:435
+msgid "Chi Squared"
+msgstr ""
+"카이제곱"
+
+#: STATS_EXRASCH.R:435
+msgid "D.F."
+msgstr ""
+"자유도"
+
+#: STATS_EXRASCH.R:435
+msgid "P Value"
+msgstr ""
+"P 값"
+
+#: STATS_EXRASCH.R:435
+msgid "Outfit MSQ"
+msgstr ""
+"결과 적합값 MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit MSQ"
+msgstr ""
+"내적합 MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Outfit t"
+msgstr ""
+"외적합 t"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit t"
+msgstr ""
+"내적합 t"
+
+#: STATS_EXRASCH.R:437
+msgid "Item Fit Statistics"
+msgstr ""
+"항목 적합도 통계량"
+
+#: STATS_EXRASCH.R:445
+msgid "Confusion Matrix"
+msgstr ""
+"혼돈 행렬"
+
+#: STATS_EXRASCH.R:447
+msgid "Predicted"
+msgstr ""
+"예측빈도"
+
+#: STATS_EXRASCH.R:447
+msgid "Observed"
+msgstr ""
+"관측빈도"
+
+#: STATS_EXRASCH.R:453
+msgid "Person Goodness-of-Fit Tests"
+msgstr ""
+"피험자 적합도 검정"
+
+#: STATS_EXRASCH.R:459
+msgid "Joint Log Likelihood"
+msgstr ""
+"결합 로그 우도"
+
+#: STATS_EXRASCH.R:459
+msgid "Marginal Log Likelihood"
+msgstr ""
+"주변 로그 우도"
+
+#: STATS_EXRASCH.R:460
+msgid "Conditional Log Likelihood"
+msgstr ""
+"조건부 로그 우도"
+
+#: STATS_EXRASCH.R:461
+msgid "Value"
+msgstr ""
+"변수값"
+
+#: STATS_EXRASCH.R:462
+msgid "Person Fit Information Criteria"
+msgstr ""
+"피험자 적합도 정보 기준"
+
+#: STATS_EXRASCH.R:473
+msgid "Case ID"
+msgstr ""
+"케이스 번호"
+
+#: STATS_EXRASCH.R:474
+msgid "Parameter"
+msgstr ""
+"모수2"
+
+#: STATS_EXRASCH.R:475
+msgid "Missing Data Group"
+msgstr ""
+"결측 데이터 그룹"
+
+#: STATS_EXRASCH.R:476
+msgid "Interpolated"
+msgstr ""
+"보간"
+
+#: STATS_EXRASCH.R:477
+msgid "Standard Error"
+msgstr ""
+"표준오차"
+
+#: STATS_EXRASCH.R:484
+msgid "Standard Error, NA Group"
+msgstr ""
+"표준오차, NA 그룹"
+
+#: STATS_EXRASCH.R:505
+msgid "Failed to create person parameters dataset."
+msgstr ""
+"피험자 모수 데이터 세트를 작성하지 못했습니다."
+
+

@@ -1,0 +1,525 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EXRASCH.R:111
+msgid "Binary Rasch"
+msgstr ""
+"Бинарная модель Рэша"
+
+#: STATS_EXRASCH.R:112
+msgid "Linear Logistic Test"
+msgstr ""
+"Линейный логистический критерий"
+
+#: STATS_EXRASCH.R:113
+msgid "Polytomous Rating Scale"
+msgstr ""
+"Политомическая модель со шкалой рейтингов"
+
+#: STATS_EXRASCH.R:114
+msgid "Linear Rating Scale"
+msgstr ""
+"Линейная модель со шкалой рейтингов"
+
+#: STATS_EXRASCH.R:115
+msgid "Polytomous Partial Credit"
+msgstr ""
+"Политомическая модель с частными оценками доверия"
+
+#: STATS_EXRASCH.R:116
+msgid "Polytomous Linear Partial Credit"
+msgstr ""
+"Политомическая модель с линейными частными оценками доверия"
+
+#: STATS_EXRASCH.R:118
+msgid "relative gradient is close to zero, current iterate is probably solution."
+msgstr ""
+"относительный градиент близок к нулю. Скорее всего, текущая итерация - решение."
+
+#: STATS_EXRASCH.R:119
+msgid "successive iterates within tolerance, current iterate is probably solution."
+msgstr ""
+"соседние итерации в пределах допуска. Скорее всего, текущая итерация - решение."
+
+#: STATS_EXRASCH.R:120
+msgid "last global step failed to locate a point lower than estimate. Either estimate is an approximate local minimum of the function or steptol is too small."
+msgstr ""
+"на последнем глобальной шаге не найдена точка ниже примерной оценки. Либо примерная оценка равна приблизительному локальному минимуму функции, либо значение steptol слишком мало."
+
+#: STATS_EXRASCH.R:121
+msgid "iteration limit exceeded."
+msgstr ""
+"превышен предел итераций."
+
+#: STATS_EXRASCH.R:122
+msgid "maximum step size stepmax exceeded five consecutive times. Either the function is unbounded below, becomes asymptotic to a finite value from above in some direction or stepmax is too small."
+msgstr ""
+"максимальный размер stepmax превосходит пять последовательных времен. Либо функция не ограничена снизу, либо в некотором направлении асимптотически приближается сверху к конечному значению, либо значение stepmax слишком мало."
+
+#: STATS_EXRASCH.R:136
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_EXRASCH.R:144
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Одно или несколько имен наборов данных уже используются"
+
+#: STATS_EXRASCH.R:165
+msgid "The specified model type is inconsistent with group and repetition specifications"
+msgstr ""
+"Указанный тип модели несовместим со спецификациями группы и повторений"
+
+#: STATS_EXRASCH.R:170
+msgid "There are %s duplicates in the item list"
+msgstr ""
+"Список содержит %s дубликатов"
+
+#: STATS_EXRASCH.R:173
+msgid "Thresholds require that standard errors be computed.  Changing standard error setting"
+msgstr ""
+"Для порогов требуется вычислить среднеквадратичные ошибки. Изменение параметров среднеквадратичных ошибок"
+
+#: STATS_EXRASCH.R:180
+msgid "Person parameters cannot be estimated with groups"
+msgstr ""
+"Параметры Person нельзя оценивать с использованием групп"
+
+#: STATS_EXRASCH.R:192
+msgid "The item values must start at zero"
+msgstr ""
+"Значения элементов должны начинаться с нуля"
+
+#: STATS_EXRASCH.R:195
+msgid "The items must have more than two values"
+msgstr ""
+"У элементов должно быть больше двух значений"
+
+#: STATS_EXRASCH.R:198
+msgid "The items must be coded 0/1 for this model"
+msgstr ""
+"Для этой модели элементы должны кодироваться 0/1"
+
+#: STATS_EXRASCH.R:206
+#: STATS_EXRASCH.R:394
+msgid "Model"
+msgstr ""
+"Модель"
+
+#: STATS_EXRASCH.R:207
+msgid "Group Variable"
+msgstr ""
+"Группирующая переменная"
+
+#: STATS_EXRASCH.R:208
+msgid "Repetitions"
+msgstr ""
+"Повторения"
+
+#: STATS_EXRASCH.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"Лог-правдоподобие"
+
+#: STATS_EXRASCH.R:210
+#: STATS_EXRASCH.R:461
+msgid "Number of Parameters"
+msgstr ""
+"Число параметров"
+
+#: STATS_EXRASCH.R:211
+msgid "Parameter Normalization"
+msgstr ""
+"Нормализация параметра"
+
+#: STATS_EXRASCH.R:212
+#: STATS_EXRASCH.R:397
+msgid "Number of Iterations"
+msgstr ""
+"Количество итераций"
+
+#: STATS_EXRASCH.R:213
+msgid "Convergence"
+msgstr ""
+"Сходимость"
+
+#: STATS_EXRASCH.R:214
+msgid "Person Parameters Dataset"
+msgstr ""
+"Набор данных параметров Person"
+
+#: STATS_EXRASCH.R:217
+#: STATS_EXRASCH.R:224
+msgid "--None--"
+msgstr ""
+"--Нет--"
+
+#: STATS_EXRASCH.R:221
+msgid "Sum to zero"
+msgstr ""
+"Сумму к нулю"
+
+#: STATS_EXRASCH.R:221
+msgid "First set to zero"
+msgstr ""
+"Первое в ноль"
+
+#: STATS_EXRASCH.R:228
+msgid "Values"
+msgstr ""
+"Значения"
+
+#: STATS_EXRASCH.R:229
+msgid "Rasch Model Summary"
+msgstr ""
+"Сводка модели Рэша"
+
+#: STATS_EXRASCH.R:230
+msgid "Results computed by R eRm package"
+msgstr ""
+"Результаты вычислены пакетом R eRm"
+
+#: STATS_EXRASCH.R:234
+msgid "Converge not achieved"
+msgstr ""
+"Сходимость не достигнута"
+
+#: STATS_EXRASCH.R:238
+msgid "Threshold parameters are not available for dichotomous items"
+msgstr ""
+"Пороговые параметры недоступны для дихотомических элементов"
+
+#: STATS_EXRASCH.R:252
+#: STATS_EXRASCH.R:264
+msgid "The item information plot is not available for this model"
+msgstr ""
+"Для этой модели диаграмма информации элемента недоступна"
+
+#: STATS_EXRASCH.R:258
+msgid "The item information test plot is not available for this model"
+msgstr ""
+"Для этой модели диаграмма критерия информации элемента недоступна"
+
+#: STATS_EXRASCH.R:271
+#: STATS_EXRASCH.R:290
+msgid "Latent Dimension"
+msgstr ""
+"Скрытая размерность"
+
+#: STATS_EXRASCH.R:271
+msgid "Probability to Solve"
+msgstr ""
+"Вероятность получить решение"
+
+#: STATS_EXRASCH.R:275
+msgid "Design Matrix"
+msgstr ""
+"Матрица плана"
+
+#: STATS_EXRASCH.R:282
+msgid "Wald Test for Item Elimination"
+msgstr ""
+"Критерий Вальда для устранения элемента"
+
+#: STATS_EXRASCH.R:286
+msgid "The Wald test is not available for this model."
+msgstr ""
+"Для этой модели критерий Вальда недоступен."
+
+#: STATS_EXRASCH.R:290
+msgid "Person-Item Map"
+msgstr ""
+"Отображение Person - элемент"
+
+#: STATS_EXRASCH.R:291
+msgid "Person\nParameter\nDistribution"
+msgstr ""
+"Распределение\nпараметра\nPerson"
+
+#: STATS_EXRASCH.R:293
+msgid "The item-person plot is not available for this model"
+msgstr ""
+"Для этой модели диаграмма элемент - person недоступна"
+
+#: STATS_EXRASCH.R:309
+msgid "Item (Category) Difficulty Parameters (Beta)"
+msgstr ""
+"Параметры трудности элемента или категории (бета)"
+
+#: STATS_EXRASCH.R:311
+#: STATS_EXRASCH.R:326
+msgid "CI: %s"
+msgstr ""
+"ДИ: %s"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:316
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:331
+msgid "Estimate"
+msgstr ""
+"Оценка"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:372
+msgid "Std. Error"
+msgstr ""
+"Стд. ошибка"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Lower CI"
+msgstr ""
+"Нижний ДИ"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Upper CI"
+msgstr ""
+"Верхний ДИ"
+
+#: STATS_EXRASCH.R:324
+msgid "Item (Eta) Parameters"
+msgstr ""
+"Параметры элемента (эта)"
+
+#: STATS_EXRASCH.R:344
+msgid "Thresholds could not be computed"
+msgstr ""
+"Не удалось вычислить пороги"
+
+#: STATS_EXRASCH.R:359
+msgid "Location"
+msgstr ""
+"Положение"
+
+#: STATS_EXRASCH.R:359
+msgid "Threshold"
+msgstr ""
+"Пороговое значение"
+
+#: STATS_EXRASCH.R:361
+msgid "Item Thresholds"
+msgstr ""
+"Пороги элемента"
+
+#: STATS_EXRASCH.R:363
+msgid "Item Thresholds. %s"
+msgstr ""
+"Пороги элемента. %s"
+
+#: STATS_EXRASCH.R:364
+msgid "Design Matrix Block"
+msgstr ""
+"Блок матрицы плана"
+
+#: STATS_EXRASCH.R:372
+msgid "Lower %s%% C.I."
+msgstr ""
+"ДИ нижних %s%%"
+
+#: STATS_EXRASCH.R:372
+msgid "Upper %s%% C.I."
+msgstr ""
+"ДИ верхних %s%%"
+
+#: STATS_EXRASCH.R:374
+msgid "Threshold Std. Errors and Confidence Intervals"
+msgstr ""
+"Стандартные ошибки и доверительные интервалы порога"
+
+#: STATS_EXRASCH.R:385
+msgid "Some tables are unavailable"
+msgstr ""
+"Некоторые таблицы недоступны."
+
+#: STATS_EXRASCH.R:395
+msgid "Unconditional (Joint) Log Likelihood"
+msgstr ""
+"Безусловное (совместное) логарифмическое правдоподобие"
+
+#: STATS_EXRASCH.R:396
+msgid "D.F"
+msgstr ""
+"Ст.Св."
+
+#: STATS_EXRASCH.R:407
+msgid "Pearson R2"
+msgstr ""
+"R2 Пирсона"
+
+#: STATS_EXRASCH.R:408
+msgid "Sum-of-Squares R2"
+msgstr ""
+"R2 суммы квадратов"
+
+#: STATS_EXRASCH.R:409
+msgid "McFadden R2"
+msgstr ""
+"R2 Макфаддена"
+
+#: STATS_EXRASCH.R:410
+msgid "Accuracy"
+msgstr ""
+"Точность"
+
+#: STATS_EXRASCH.R:411
+msgid "Sensitivity"
+msgstr ""
+"Чувствительность"
+
+#: STATS_EXRASCH.R:412
+msgid "Specificity"
+msgstr ""
+"Специфичность"
+
+#: STATS_EXRASCH.R:425
+msgid "Statistics"
+msgstr ""
+"Статистику"
+
+#: STATS_EXRASCH.R:426
+msgid "Person Ability Parameters"
+msgstr ""
+"Параметры возможности персоны"
+
+#: STATS_EXRASCH.R:435
+msgid "Chi Squared"
+msgstr ""
+"Хи-квадрат"
+
+#: STATS_EXRASCH.R:435
+msgid "D.F."
+msgstr ""
+"Ст. св."
+
+#: STATS_EXRASCH.R:435
+msgid "P Value"
+msgstr ""
+"P-значение"
+
+#: STATS_EXRASCH.R:435
+msgid "Outfit MSQ"
+msgstr ""
+"Выходные подогнанные MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit MSQ"
+msgstr ""
+"Входные подогнанные MSQ"
+
+#: STATS_EXRASCH.R:436
+msgid "Outfit t"
+msgstr ""
+"Выходные подогнанные t"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit t"
+msgstr ""
+"Входные подогнанные t"
+
+#: STATS_EXRASCH.R:437
+msgid "Item Fit Statistics"
+msgstr ""
+"Статистики согласованности для вопросов"
+
+#: STATS_EXRASCH.R:445
+msgid "Confusion Matrix"
+msgstr ""
+"Матрица ошибок"
+
+#: STATS_EXRASCH.R:447
+msgid "Predicted"
+msgstr ""
+"Предсказанные"
+
+#: STATS_EXRASCH.R:447
+msgid "Observed"
+msgstr ""
+"Наблюденные"
+
+#: STATS_EXRASCH.R:453
+msgid "Person Goodness-of-Fit Tests"
+msgstr ""
+"Критерии согласия Person"
+
+#: STATS_EXRASCH.R:459
+msgid "Joint Log Likelihood"
+msgstr ""
+"Совместное логарифмическое правдоподобие"
+
+#: STATS_EXRASCH.R:459
+msgid "Marginal Log Likelihood"
+msgstr ""
+"Пограничное логарифмическое правдоподобие"
+
+#: STATS_EXRASCH.R:460
+msgid "Conditional Log Likelihood"
+msgstr ""
+"Условное логарифмическое правдоподобие"
+
+#: STATS_EXRASCH.R:461
+msgid "Value"
+msgstr ""
+"Значение"
+
+#: STATS_EXRASCH.R:462
+msgid "Person Fit Information Criteria"
+msgstr ""
+"Информационный критерий подгонки Person"
+
+#: STATS_EXRASCH.R:473
+msgid "Case ID"
+msgstr ""
+"Идентификатор наблюдения"
+
+#: STATS_EXRASCH.R:474
+msgid "Parameter"
+msgstr ""
+"Параметр"
+
+#: STATS_EXRASCH.R:475
+msgid "Missing Data Group"
+msgstr ""
+"Группа пропущенных данных"
+
+#: STATS_EXRASCH.R:476
+msgid "Interpolated"
+msgstr ""
+"Интерполированные"
+
+#: STATS_EXRASCH.R:477
+msgid "Standard Error"
+msgstr ""
+"Стандартная ошибка"
+
+#: STATS_EXRASCH.R:484
+msgid "Standard Error, NA Group"
+msgstr ""
+"Стандартная ошибка, группа NA"
+
+#: STATS_EXRASCH.R:505
+msgid "Failed to create person parameters dataset."
+msgstr ""
+"Не удалось создать набор данных параметров для испытуемых."
+
+

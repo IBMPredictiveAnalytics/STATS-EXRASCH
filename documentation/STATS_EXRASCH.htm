@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <title>Extended Rasch Models</title>
+  <style type="text/css">
+
+  <!-- 
+
+  H1 {font-weight:bold; color:#006699; font-family:Verdana, Arial, sans-serif;font-size:125%; }
+  H2 {font-weight:bold; color:#006699; font-family:Verdana, Arial, sans-serif;font-size:110%; }
+  BODY {font-family:Verdana, Arial, sans-serif;font-size:80%; }
+  TABLE {font-size:100%;font-family:Verdana, Arial, sans-serif;}
+
+  /* paragraph tags */
+  .step {text-indent: -1.3em; margin-left:1.3em; margin-top: 0px;}
+  .step-glyph { font-family: Arial, Helvetica, sans-serif; }
+  .menuselection {margin-left:10px}
+  .bullet {list-style-type: disc;margin-top:12px; margin-left:36px; text-indent:-1em; }
+  .codeblock {background-color: #ffffe6; display:block; margin-left:5px; padding:5px;font-family:"courier new",monospace; }
+
+  /* inline tags */
+  .code {font-family: Courier,fixed pitch;}                           /*** used to tag pieces of code (syntax, Python, R, HTML, etc.)   ***/
+  .screen {font-weight:bold; color:#408080}                       /*** used refer to on-screen text ***/
+  .name {font-style: italic}                                                       /*** used to tag names, such as variable names, file names, and so forth ***/
+  .runinhead {font-weight: bold} 
+  .superscript {vertical-align:super; font-size:80%}
+  .subscript {vertical-align:sub; font-size:80%}
+  .symbol {font-family: Symbol}
+
+  --> 
+  </style>
+</head>
+
+<body>
+  <h1>Extended Rasch Models</h1>This procedure estimates a standard
+  Rasch model and five extended models.
+
+  <p><span class="runinhead">Item Variables</span> Specify a set of
+  identically coded numeric item variables to analyze. The values
+  must be integers starting with 0 and incrementing by 1. Variables
+  can be dichotomous or polytomous.</p>
+
+  <p class="bullet">• For repeated measures data, wide format, in
+  which the repetitions occur as additional sets of variables, is
+  required.</p>
+
+  <p class="bullet">• Polytomous data must have more than two
+  values.</p>
+
+  <p><span class="runinhead">Model Type</span> Select the model
+  type to estimate. Note that the first two types apply to
+  dichotomous data while the others are for polytomous data.</p>
+
+  <p class="bullet">• The linear extensions models are special
+  cases of their base models. The linear logistic test model, for
+  example, models the the item parameters as a weighted linear
+  combination of underlying basic parameters and a normalization
+  term.</p>
+
+  <p><span class="runinhead">Group Indicator</span> A grouping
+  variable can be specified to distinguish groups. Its values must
+  be integers starting from one. You can use AUTORECODE
+  (Transform&gt;Automatic Recode) to put a variable into this
+  form.</p>
+
+  <p class="bullet">• You must have more than one measurement point
+  to use a group variable.</p>
+
+  <p class="bullet">• Person estimates and related statistics are
+  not available if groups are used.</p>
+
+  <p class="bullet">• Groups cannot be used with model types
+  standard Rasch, linear rating scale, or partial credit.</p>
+
+  <h2>Options</h2>
+
+  <p><span class="runinhead">Parameter Normalization</span>
+  Normalization is required in order to make the model parmaeters
+  identified. By default, the sum of the beta (item difficulty) parameters is set to zero.
+  Alternatively, the first parameter can be set to
+  zero.</p>
+
+  <p><span class="runinhead">Calculate standard errors</span> Check
+  this box to compute the item standard errors.</p>
+  
+
+  <h2>Viewer and Dataset Output</h2>For models that do not include
+  groups, person parameters can be computed. When this is done, a
+  number of person-related statistics are also displayed in the
+  Viewer.
+
+  <p><span class="runinhead">Save person estimates</span> Check
+  this box and enter a dataset name for the output. The dataset
+  will contain a person identifier assigned by the procedure, the
+  estimated person parameter, and, if standard error estimation was
+  specified, the standard error. Person parameters are estimated
+  for each missing value subgroup if there are missing data. Spline
+  interpolation is used if the parameter cannot be directly
+  estimated. This is indicated by the Interpolated variable in the
+  dataset.</p>
+
+  <p class="bullet">• The dataset name must not already be in
+  use.</p>
+
+  <p class="bullet">• Any interpolated cases will appear out of
+  order at the end of the dataset.</p>
+
+  <p><span class="runinhead">Plots</span> Check the appropriate
+  boxes to display person and item information plots and the
+  item-person plot.</p>
+  <p class="bullet">• Some plots are only available for
+  RM, RSM, and PCM models. They will be ignored if specified
+  for other models.</p>
+  <p><span class="runinhead">Item Characteristic Curve Legend Postion</span> 
+  Choose where the legend appears in the plot.
+  The legend is always within the plot border, so it may be necessary
+  to move it in order not to obscure the curves.  
+  Choose <span class="screen">None</span>
+  to omit the legend.</p>
+  
+
+  <p><span class="runinhead">Wald Test</span> Check the display box
+  and choose the median or mean as the case splitting criterion for
+  a Wald test for item elimination.</p>
+  
+  <p><span class="runinhead">Threshold parameters</span> 
+  Check this box to display threshold parameters.  These are not available
+  for dichotomous data.  The table includes the parameters for each
+  item level and a location parameter for the item.
+  A second table containing the threshold standard errors and 95%
+  confidence intervals is also produced.
+  Threshold parameter calculation requires
+  that standard errors be computed.</p>
+  
+  <p><span class="runinhead">Eta</span> Check this box to
+  display the eta parameters from which the item parameters (beta)
+  are derived.</p>
+
+  <h2>Additional Features</h2>
+
+  <p>This dialog generates syntax for the STATS EXRASCH extension
+  command. To display the syntax help, run the following
+  syntax:</p>
+
+  <p class="codeblock">STATS EXRASCH /HELP.</p>
+
+  <h2>Acknowledgement</h2>This procedure uses the R eRm package
+  written by Patrick Mair and Reinhold Hatzinger with contributions
+  by others.
+
+  <h2>Requirements</h2>This command requires the R Essentials, at
+  least version 18 of IBM SPSS Statistics, and the R eRm package.
+  You can download the Essentials from the SPSS Community website
+  at www.ibm.com/developerworks/spssdevcentral.<br>
+  <hr>
+
+  <p style="font-family:Verdana, Arial, sans-serif;font-size:80%;">
+  © Copyright IBM Corp. 2013</p>
+</body>
+</html>

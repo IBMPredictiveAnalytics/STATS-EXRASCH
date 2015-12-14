@@ -1,0 +1,525 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_EXRASCH.R:111
+msgid "Binary Rasch"
+msgstr ""
+"Rasch binario"
+
+#: STATS_EXRASCH.R:112
+msgid "Linear Logistic Test"
+msgstr ""
+"Test logistico lineare"
+
+#: STATS_EXRASCH.R:113
+msgid "Polytomous Rating Scale"
+msgstr ""
+"Scala punteggio politomico"
+
+#: STATS_EXRASCH.R:114
+msgid "Linear Rating Scale"
+msgstr ""
+"Scala punteggio lineare"
+
+#: STATS_EXRASCH.R:115
+msgid "Polytomous Partial Credit"
+msgstr ""
+"Credito parziale politomico"
+
+#: STATS_EXRASCH.R:116
+msgid "Polytomous Linear Partial Credit"
+msgstr ""
+"Credito parziale lineare politomico"
+
+#: STATS_EXRASCH.R:118
+msgid "relative gradient is close to zero, current iterate is probably solution."
+msgstr ""
+"gradiente relativo vicino allo zero, iterazione corrente probabilmente la soluzione."
+
+#: STATS_EXRASCH.R:119
+msgid "successive iterates within tolerance, current iterate is probably solution."
+msgstr ""
+"iterazioni successivi all'interno della tolleranza, iterazione corrente probabilmente la soluzione."
+
+#: STATS_EXRASCH.R:120
+msgid "last global step failed to locate a point lower than estimate. Either estimate is an approximate local minimum of the function or steptol is too small."
+msgstr ""
+"l'ultima fase globale non è riuscita a individuare un punto più basso della stima. La stima è un minimo locale approssimato della funzione o steptol è troppo piccolo. "
+
+#: STATS_EXRASCH.R:121
+msgid "iteration limit exceeded."
+msgstr ""
+"limite iterazione superato."
+
+#: STATS_EXRASCH.R:122
+msgid "maximum step size stepmax exceeded five consecutive times. Either the function is unbounded below, becomes asymptotic to a finite value from above in some direction or stepmax is too small."
+msgstr ""
+"dimensione massima fase, stepmax, superata per cinque volte consecutive. La funzione non è limitata in basso, diventa asintotica a un valore finito dall'alto in una direzione o stepmax è troppo piccolo."
+
+#: STATS_EXRASCH.R:136
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Il package R %s è necessario, ma non è stato possibile caricarlo."
+
+#: STATS_EXRASCH.R:144
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Uno o più nomi dataset di output specificati sono già in uso"
+
+#: STATS_EXRASCH.R:165
+msgid "The specified model type is inconsistent with group and repetition specifications"
+msgstr ""
+"Il tipo di modello specificato non è coerente con le specifiche di gruppo e ripetizione"
+
+#: STATS_EXRASCH.R:170
+msgid "There are %s duplicates in the item list"
+msgstr ""
+"Sono presenti %s duplicati nell'elenco di elementi"
+
+#: STATS_EXRASCH.R:173
+msgid "Thresholds require that standard errors be computed.  Changing standard error setting"
+msgstr ""
+"Le soglie richiedono che vengano calcolati gli errori standard. Modifica dell'impostazione dell'errore standard "
+
+#: STATS_EXRASCH.R:180
+msgid "Person parameters cannot be estimated with groups"
+msgstr ""
+"Non è possibile stimare parametri persona con i gruppi"
+
+#: STATS_EXRASCH.R:192
+msgid "The item values must start at zero"
+msgstr ""
+"I valori elemento devono iniziare a zero"
+
+#: STATS_EXRASCH.R:195
+msgid "The items must have more than two values"
+msgstr ""
+"Gli elementi devono avere più di due valori"
+
+#: STATS_EXRASCH.R:198
+msgid "The items must be coded 0/1 for this model"
+msgstr ""
+"Gli elementi devono essere codificati 0/1 per questo modello"
+
+#: STATS_EXRASCH.R:206
+#: STATS_EXRASCH.R:394
+msgid "Model"
+msgstr ""
+"Modello"
+
+#: STATS_EXRASCH.R:207
+msgid "Group Variable"
+msgstr ""
+"Variabile gruppo"
+
+#: STATS_EXRASCH.R:208
+msgid "Repetitions"
+msgstr ""
+"Ripetizioni"
+
+#: STATS_EXRASCH.R:209
+msgid "Log-Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza"
+
+#: STATS_EXRASCH.R:210
+#: STATS_EXRASCH.R:461
+msgid "Number of Parameters"
+msgstr ""
+"Numero di parametri"
+
+#: STATS_EXRASCH.R:211
+msgid "Parameter Normalization"
+msgstr ""
+"Normalizzazione parametro"
+
+#: STATS_EXRASCH.R:212
+#: STATS_EXRASCH.R:397
+msgid "Number of Iterations"
+msgstr ""
+"Numero di iterazioni"
+
+#: STATS_EXRASCH.R:213
+msgid "Convergence"
+msgstr ""
+"Convergenza"
+
+#: STATS_EXRASCH.R:214
+msgid "Person Parameters Dataset"
+msgstr ""
+"Dataset dei parametri persona"
+
+#: STATS_EXRASCH.R:217
+#: STATS_EXRASCH.R:224
+msgid "--None--"
+msgstr ""
+"--Nessuno--"
+
+#: STATS_EXRASCH.R:221
+msgid "Sum to zero"
+msgstr ""
+"Somma zero"
+
+#: STATS_EXRASCH.R:221
+msgid "First set to zero"
+msgstr ""
+"Primo insieme a zero"
+
+#: STATS_EXRASCH.R:228
+msgid "Values"
+msgstr ""
+"Valori"
+
+#: STATS_EXRASCH.R:229
+msgid "Rasch Model Summary"
+msgstr ""
+"Riepilogo modello Rasch"
+
+#: STATS_EXRASCH.R:230
+msgid "Results computed by R eRm package"
+msgstr ""
+"Risultati calcolati dal package eRm di R"
+
+#: STATS_EXRASCH.R:234
+msgid "Converge not achieved"
+msgstr ""
+"Convergenza non raggiunta"
+
+#: STATS_EXRASCH.R:238
+msgid "Threshold parameters are not available for dichotomous items"
+msgstr ""
+"I parametri di soglia non sono disponibili per gli elementi dicotomici"
+
+#: STATS_EXRASCH.R:252
+#: STATS_EXRASCH.R:264
+msgid "The item information plot is not available for this model"
+msgstr ""
+"Il grafico delle informazioni sull'elemento non è disponibile per questo modello"
+
+#: STATS_EXRASCH.R:258
+msgid "The item information test plot is not available for this model"
+msgstr ""
+"Il grafico del test delle informazioni sull'elemento non è disponibile per questo modello"
+
+#: STATS_EXRASCH.R:271
+#: STATS_EXRASCH.R:290
+msgid "Latent Dimension"
+msgstr ""
+"Dimensione latente"
+
+#: STATS_EXRASCH.R:271
+msgid "Probability to Solve"
+msgstr ""
+"Probabilità da risolvere"
+
+#: STATS_EXRASCH.R:275
+msgid "Design Matrix"
+msgstr ""
+"Matrice del disegno"
+
+#: STATS_EXRASCH.R:282
+msgid "Wald Test for Item Elimination"
+msgstr ""
+"Test di Wald per eliminazione dell'elemento"
+
+#: STATS_EXRASCH.R:286
+msgid "The Wald test is not available for this model."
+msgstr ""
+"Il test di Wald non è disponibile per questo modello"
+
+#: STATS_EXRASCH.R:290
+msgid "Person-Item Map"
+msgstr ""
+"Mappa persona-elemento"
+
+#: STATS_EXRASCH.R:291
+msgid "Person\nParameter\nDistribution"
+msgstr ""
+"Distribuzione\nparametro\npersona"
+
+#: STATS_EXRASCH.R:293
+msgid "The item-person plot is not available for this model"
+msgstr ""
+"Il grafico elemento-persona non è disponibile per questo modello"
+
+#: STATS_EXRASCH.R:309
+msgid "Item (Category) Difficulty Parameters (Beta)"
+msgstr ""
+"Parametri difficoltà elemento (Categoria) (Beta)"
+
+#: STATS_EXRASCH.R:311
+#: STATS_EXRASCH.R:326
+msgid "CI: %s"
+msgstr ""
+"IC: %s"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:316
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:331
+msgid "Estimate"
+msgstr ""
+"Stima"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+#: STATS_EXRASCH.R:372
+msgid "Std. Error"
+msgstr ""
+"Errore std."
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Lower CI"
+msgstr ""
+"IC inferiore"
+
+#: STATS_EXRASCH.R:314
+#: STATS_EXRASCH.R:329
+msgid "Upper CI"
+msgstr ""
+"IC superiore"
+
+#: STATS_EXRASCH.R:324
+msgid "Item (Eta) Parameters"
+msgstr ""
+"Parametri elemento (Eta)"
+
+#: STATS_EXRASCH.R:344
+msgid "Thresholds could not be computed"
+msgstr ""
+"Non è stato possibile calcolare le soglie"
+
+#: STATS_EXRASCH.R:359
+msgid "Location"
+msgstr ""
+"Ubicazione"
+
+#: STATS_EXRASCH.R:359
+msgid "Threshold"
+msgstr ""
+"Soglia"
+
+#: STATS_EXRASCH.R:361
+msgid "Item Thresholds"
+msgstr ""
+"Soglie elemento"
+
+#: STATS_EXRASCH.R:363
+msgid "Item Thresholds. %s"
+msgstr ""
+"Soglie dell'elemento. %s"
+
+#: STATS_EXRASCH.R:364
+msgid "Design Matrix Block"
+msgstr ""
+"Blocco matrice del disegno"
+
+#: STATS_EXRASCH.R:372
+msgid "Lower %s%% C.I."
+msgstr ""
+"IC inferiore al %s%%"
+
+#: STATS_EXRASCH.R:372
+msgid "Upper %s%% C.I."
+msgstr ""
+"IC superiore al %s%%"
+
+#: STATS_EXRASCH.R:374
+msgid "Threshold Std. Errors and Confidence Intervals"
+msgstr ""
+"Intervalli di confidenza ed errori standard soglia"
+
+#: STATS_EXRASCH.R:385
+msgid "Some tables are unavailable"
+msgstr ""
+"Alcune tabelle non sono disponibili"
+
+#: STATS_EXRASCH.R:395
+msgid "Unconditional (Joint) Log Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza non condizionale (Congiunto)"
+
+#: STATS_EXRASCH.R:396
+msgid "D.F"
+msgstr ""
+"G.L."
+
+#: STATS_EXRASCH.R:407
+msgid "Pearson R2"
+msgstr ""
+"R2 di Pearson"
+
+#: STATS_EXRASCH.R:408
+msgid "Sum-of-Squares R2"
+msgstr ""
+"R2 somma dei quadrati"
+
+#: STATS_EXRASCH.R:409
+msgid "McFadden R2"
+msgstr ""
+"R2 di McFadden"
+
+#: STATS_EXRASCH.R:410
+msgid "Accuracy"
+msgstr ""
+"Precisione"
+
+#: STATS_EXRASCH.R:411
+msgid "Sensitivity"
+msgstr ""
+"Sensibilità"
+
+#: STATS_EXRASCH.R:412
+msgid "Specificity"
+msgstr ""
+"Specificità"
+
+#: STATS_EXRASCH.R:425
+msgid "Statistics"
+msgstr ""
+"Statistiche"
+
+#: STATS_EXRASCH.R:426
+msgid "Person Ability Parameters"
+msgstr ""
+"Parametri capacità della persona"
+
+#: STATS_EXRASCH.R:435
+msgid "Chi Squared"
+msgstr ""
+"Chi quadrato"
+
+#: STATS_EXRASCH.R:435
+msgid "D.F."
+msgstr ""
+"G.L."
+
+#: STATS_EXRASCH.R:435
+msgid "P Value"
+msgstr ""
+"Valore P"
+
+#: STATS_EXRASCH.R:435
+msgid "Outfit MSQ"
+msgstr ""
+"Media quadratica fuori dal campione"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit MSQ"
+msgstr ""
+"Media quadratica nel campione"
+
+#: STATS_EXRASCH.R:436
+msgid "Outfit t"
+msgstr ""
+"t fuori dal campione"
+
+#: STATS_EXRASCH.R:436
+msgid "Infit t"
+msgstr ""
+"t nel campione"
+
+#: STATS_EXRASCH.R:437
+msgid "Item Fit Statistics"
+msgstr ""
+"Statistiche di adattamento elemento"
+
+#: STATS_EXRASCH.R:445
+msgid "Confusion Matrix"
+msgstr ""
+"Matrice di confusione"
+
+#: STATS_EXRASCH.R:447
+msgid "Predicted"
+msgstr ""
+"Previsto"
+
+#: STATS_EXRASCH.R:447
+msgid "Observed"
+msgstr ""
+"Osservato"
+
+#: STATS_EXRASCH.R:453
+msgid "Person Goodness-of-Fit Tests"
+msgstr ""
+"Test della bontà di adattamento della persona"
+
+#: STATS_EXRASCH.R:459
+msgid "Joint Log Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza congiunto"
+
+#: STATS_EXRASCH.R:459
+msgid "Marginal Log Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza marginale"
+
+#: STATS_EXRASCH.R:460
+msgid "Conditional Log Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza condizionale"
+
+#: STATS_EXRASCH.R:461
+msgid "Value"
+msgstr ""
+"Valore"
+
+#: STATS_EXRASCH.R:462
+msgid "Person Fit Information Criteria"
+msgstr ""
+"Criteri di informazioni adattamento persona"
+
+#: STATS_EXRASCH.R:473
+msgid "Case ID"
+msgstr ""
+"ID caso"
+
+#: STATS_EXRASCH.R:474
+msgid "Parameter"
+msgstr ""
+"Parametro"
+
+#: STATS_EXRASCH.R:475
+msgid "Missing Data Group"
+msgstr ""
+"Gruppo dati mancanti"
+
+#: STATS_EXRASCH.R:476
+msgid "Interpolated"
+msgstr ""
+"Interpolato"
+
+#: STATS_EXRASCH.R:477
+msgid "Standard Error"
+msgstr ""
+"Errore standard"
+
+#: STATS_EXRASCH.R:484
+msgid "Standard Error, NA Group"
+msgstr ""
+"Errore standard, gruppo NA"
+
+#: STATS_EXRASCH.R:505
+msgid "Failed to create person parameters dataset."
+msgstr ""
+"Impossibile creare il dataset dei parametri persona"
+
+
