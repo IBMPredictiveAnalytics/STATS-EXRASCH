@@ -1,10 +1,11 @@
 # STATS_EXRASCH
- Calculate standard and extended Rasch models
+## Calculate standard and extended Rasch models
+This procedure calculates standard Rasch models and five extensions: RM: Binary Rasch, 0/1 item values; LLTM: Linear Logistic Test, 0/1 item values; RSM: Polytomous Rating Scale, more than two values; LRSM: Linear Rating Scale, more than two values; PCM: Polytomous Partial Credit, more than two values; and LPCM: Polytomous Linear Partial Credit, more than two values.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
